@@ -1,0 +1,4 @@
+node_modules
+package-lock.json
+postscss.configh.json
+tailwind.config.js

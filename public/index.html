@@ -1,0 +1,485 @@
+<div class="flex flex-col min-h-screen">
+  <header class="bg-background border-b px-4 md:px-6 py-4 flex items-center justify-between">
+    <a class="text-2xl font-bold" href="#">
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^2.0/dist/tailwind.min.css" rel="stylesheet">
+
+      Photography Blog
+    </a>
+    <nav class="hidden md:flex gap-4">
+      <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+        Home
+      </a>
+      <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+        Categories
+      </a>
+      <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+        About
+      </a>
+      <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+        Contact
+      </a>
+    </nav>
+  </header>
+  <main class="flex-1 grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 p-4 md:p-6">
+    <div>
+      <article class="mb-8">
+        <img
+          src="/placeholder.svg"
+          width="1200"
+          height="600"
+          alt="Featured Image"
+          class="w-full h-[400px] object-cover rounded-lg"
+          style="aspect-ratio: 1200 / 600; object-fit: cover;"
+        />
+        <div class="mt-4 space-y-2">
+          <h1 class="text-3xl font-bold">Capturing the Essence of Nature</h1>
+          <div class="flex items-center gap-2 text-muted-foreground">
+            <div>John Doe</div>
+            <div>•</div>
+            <div>June 1, 2023</div>
+          </div>
+          <div class="prose max-w-none">
+            <p>
+              In this blog post, we'll explore the art of nature photography and how to capture the essence of the
+              natural world. From breathtaking landscapes to intricate details, we'll dive into the techniques and
+              mindset required to create stunning images that truly showcase the beauty of our environment.
+            </p>
+            <p>
+              Whether you're a seasoned photographer or just starting out, this post will provide you with valuable
+              insights and practical tips to help you elevate your nature photography game. Get ready to immerse
+              yourself in the wonders of the great outdoors and learn how to translate them into captivating visual
+              stories.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="mb-8">
+        <img
+          src="/placeholder.svg"
+          width="1200"
+          height="600"
+          alt="Featured Image"
+          class="w-full h-[400px] object-cover rounded-lg"
+          style="aspect-ratio: 1200 / 600; object-fit: cover;"
+        />
+        <div class="mt-4 space-y-2">
+          <h1 class="text-3xl font-bold">Mastering the Art of Landscape Photography</h1>
+          <div class="flex items-center gap-2 text-muted-foreground">
+            <div>Jane Smith</div>
+            <div>•</div>
+            <div>May 15, 2023</div>
+          </div>
+          <div class="prose max-w-none">
+            <p>
+              Landscape photography is a captivating genre that allows us to capture the grandeur and beauty of the
+              natural world. In this blog post, we'll delve into the techniques and strategies that professional
+              landscape photographers use to create breathtaking images.
+            </p>
+            <p>
+              From understanding the importance of lighting and composition to mastering the use of filters and
+              post-processing, we'll cover everything you need to know to take your landscape photography to the
+              next level. Get ready to be inspired and learn how to transform the world around you into stunning
+              visual masterpieces.
+            </p>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="space-y-8">
+      <div>
+        <h2 class="text-xl font-bold mb-4">Categories</h2>
+        <ul class="space-y-2">
+          <li>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+              Landscape
+            </a>
+          </li>
+          <li>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+              Portrait
+            </a>
+          </li>
+          <li>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+              Nature
+            </a>
+          </li>
+          <li>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+              Travel
+            </a>
+          </li>
+          <li>
+            <a class="text-sm font-medium hover:text-primary transition-colors" href="#">
+              Macro
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-4">Popular Posts</h2>
+        <ul class="space-y-4">
+          <li>
+            <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+              <img
+                src="/placeholder.svg"
+                width="80"
+                height="60"
+                alt="Popular Post"
+                class="w-20 h-15 object-cover rounded-md"
+                style="aspect-ratio: 80 / 60; object-fit: cover;"
+              />
+              <div>
+                <h3 class="text-sm font-medium">Capturing the Beauty of Autumn Landscapes</h3>
+                <p class="text-xs text-muted-foreground">October 12, 2022</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+              <img
+                src="/placeholder.svg"
+                width="80"
+                height="60"
+                alt="Popular Post"
+                class="w-20 h-15 object-cover rounded-md"
+                style="aspect-ratio: 80 / 60; object-fit: cover;"
+              />
+              <div>
+                <h3 class="text-sm font-medium">Tips for Stunning Macro Photography</h3>
+                <p class="text-xs text-muted-foreground">August 3, 2022</p>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+              <img
+                src="/placeholder.svg"
+                width="80"
+                height="60"
+                alt="Popular Post"
+                class="w-20 h-15 object-cover rounded-md"
+                style="aspect-ratio: 80 / 60; object-fit: cover;"
+              />
+              <div>
+                <h3 class="text-sm font-medium">Mastering the Art of Portrait Photography</h3>
+                <p class="text-xs text-muted-foreground">June 20, 2022</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-4">Follow Us</h2>
+        <div class="flex gap-4">
+          <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+            </svg>
+          </a>
+          <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+            </svg>
+          </a>
+          <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="w-6 h-6"
+            >
+              <path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"></path>
+              <path d="m10 15 5-3-5-3z"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="bg-muted px-4 md:px-6 py-6 text-center text-muted-foreground">
+    <p>© 2024 Photography Blog. All rights reserved.</p>
+  </footer>
+</div><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography Blog</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@^3.0/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    /* Dark mode styles */
+    body {
+      background-color: #1f1f1f; /* Background color for dark mode */
+      color: #e0e0e0; /* Text color for dark mode */
+    }
+    .bg-background {
+      background-color: #2c2c2c; /* Header background for dark mode */
+    }
+    .text-primary {
+      color: #00aaff; /* Primary color for links and highlights */
+    }
+    .text-muted-foreground {
+      color: #7d7d7d; /* Muted text color */
+    }
+    .bg-muted {
+      background-color: #2c2c2c; /* Footer background for dark mode */
+    }
+    .border-b {
+      border-color: #333; /* Border color for dark mode */
+    }
+  </style>
+</head>
+<body>
+  <div class="flex flex-col min-h-screen">
+    <header class="bg-background border-b px-4 md:px-6 py-4 flex items-center justify-between">
+      <a class="text-2xl font-bold" href="#">
+        Photography Blog
+      </a>
+      <nav class="hidden md:flex gap-4">
+        <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Home</a>
+        <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Categories</a>
+        <a class="text-sm font-medium hover:text-primary transition-colors" href="#">About</a>
+        <a class="text-sm font-medium hover:text-primary transition-colors" href="#">Contact</a>
+      </nav>
+    </header>
+    <main class="flex-1 grid grid-cols-1 md:grid-cols-[3fr_1fr] gap-8 p-4 md:p-6">
+      <section>
+        <article class="mb-8">
+          <img
+            src="/placeholder.svg"
+            width="1200"
+            height="600"
+            alt="Featured Image"
+            class="w-full h-[400px] object-cover rounded-lg"
+            style="aspect-ratio: 1200 / 600; object-fit: cover;"
+          />
+          <div class="mt-4 space-y-2">
+            <h1 class="text-3xl font-bold">Capturing the Essence of Nature</h1>
+            <div class="flex items-center gap-2 text-muted-foreground">
+              <div>John Doe</div>
+              <div>•</div>
+              <div>June 1, 2023</div>
+            </div>
+            <div class="prose max-w-none">
+              <p>
+                In this blog post, we'll explore the art of nature photography and how to capture the essence of the
+                natural world. From breathtaking landscapes to intricate details, we'll dive into the techniques and
+                mindset required to create stunning images that truly showcase the beauty of our environment.
+              </p>
+              <p>
+                Whether you're a seasoned photographer or just starting out, this post will provide you with valuable
+                insights and practical tips to help you elevate your nature photography game. Get ready to immerse
+                yourself in the wonders of the great outdoors and learn how to translate them into captivating visual
+                stories.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="mb-8">
+          <img
+            src="/placeholder.svg"
+            width="1200"
+            height="600"
+            alt="Featured Image"
+            class="w-full h-[400px] object-cover rounded-lg"
+            style="aspect-ratio: 1200 / 600; object-fit: cover;"
+          />
+          <div class="mt-4 space-y-2">
+            <h1 class="text-3xl font-bold">Mastering the Art of Landscape Photography</h1>
+            <div class="flex items-center gap-2 text-muted-foreground">
+              <div>Jane Smith</div>
+              <div>•</div>
+              <div>May 15, 2023</div>
+            </div>
+            <div class="prose max-w-none">
+              <p>
+                Landscape photography is a captivating genre that allows us to capture the grandeur and beauty of the
+                natural world. In this blog post, we'll delve into the techniques and strategies that professional
+                landscape photographers use to create breathtaking images.
+              </p>
+              <p>
+                From understanding the importance of lighting and composition to mastering the use of filters and
+                post-processing, we'll cover everything you need to know to take your landscape photography to the
+                next level. Get ready to be inspired and learn how to transform the world around you into stunning
+                visual masterpieces.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <aside class="space-y-8">
+        <div>
+          <h2 class="text-xl font-bold mb-4">Categories</h2>
+          <ul class="space-y-2">
+            <li><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Landscape</a></li>
+            <li><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Portrait</a></li>
+            <li><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Nature</a></li>
+            <li><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Travel</a></li>
+            <li><a class="text-sm font-medium hover:text-primary transition-colors" href="#">Macro</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold mb-4">Popular Posts</h2>
+          <ul class="space-y-4">
+            <li>
+              <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+                <img
+                  src="/placeholder.svg"
+                  width="80"
+                  height="60"
+                  alt="Popular Post"
+                  class="w-20 h-15 object-cover rounded-md"
+                  style="aspect-ratio: 80 / 60; object-fit: cover;"
+                />
+                <div>
+                  <h3 class="text-sm font-medium">Capturing the Beauty of Autumn Landscapes</h3>
+                  <p class="text-xs text-muted-foreground">October 12, 2022</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+                <img
+                  src="/placeholder.svg"
+                  width="80"
+                  height="60"
+                  alt="Popular Post"
+                  class="w-20 h-15 object-cover rounded-md"
+                  style="aspect-ratio: 80 / 60; object-fit: cover;"
+                />
+                <div>
+                  <h3 class="text-sm font-medium">Tips for Stunning Macro Photography</h3>
+                  <p class="text-xs text-muted-foreground">August 3, 2022</p>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a class="flex items-center gap-4 hover:text-primary transition-colors" href="#">
+                <img
+                  src="/placeholder.svg"
+                  width="80"
+                  height="60"
+                  alt="Popular Post"
+                  class="w-20 h-15 object-cover rounded-md"
+                  style="aspect-ratio: 80 / 60; object-fit: cover;"
+                />
+                <div>
+                  <h3 class="text-sm font-medium">Mastering the Art of Portrait Photography</h3>
+                  <p class="text-xs text-muted-foreground">June 20, 2022</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h2 class="text-xl font-bold mb-4">Follow Us</h2>
+          <div class="flex gap-4">
+            <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+              </svg>
+            </a>
+            <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M12 2v20"></path>
+                <path d="M6 12h12"></path>
+              </svg>
+            </a>
+            <a class="text-muted-foreground hover:text-primary transition-colors" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6"
+              >
+                <path d="M22 2a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h-1a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer class="bg-muted text-muted-foreground px-4 md:px-6 py-4 text-center">
+      &copy; 2024 Photography Blog. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
